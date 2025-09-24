@@ -41,18 +41,48 @@ a {
 }
 
 .one {
-    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+    height: 250px;
+    gap: 50px;
+}
+
+.website-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sign-up {
+    height: 20px;
+    width: 100px;
+    
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8;
 }
 
 .two {
-    flex: 1;
+    height: 250px;
+    flex: auto;
 }
 
 .three {
-    flex: 1;
+    height: 250px;
+    flex: auto;
     background: #E5E7EB;
 }
 
 .four {
-    flex: 1;
+    height: 250px;
+    flex: auto;
 }
