@@ -78,17 +78,79 @@ a {
 .two {
     height: 250px;
     flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
 }
 
 .three {
     height: 250px;
     flex: auto;
     background: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+.quote-credit {
+    text-align: right;
+    padding-bottom: 30px;
+    padding-top: 0;
+    font-weight: 800;
 }
 
 .four {
     height: 250px;
     flex: auto;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.sign-up-two {
+    width: 100px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    border-width: 2px;
+    border-color: #F9FAF8;
+}
+
+.call-to-action-text {
+    color: #F9FAF8;
+}
+.call-to-action-text-top {
+    font-size: 24px;
 }
 
 .footer {
